@@ -29,7 +29,8 @@ jobs:
       run: |
          skopeo copy docker://docker.io/laradock/workspace:latest-8.3 docker://registry.cn-shanghai.aliyuncs.com/linkstar/workspace:latest-8.3 && \
          skopeo copy docker://docker.io/laradock/php-fpm:latest-8.3 docker://registry.cn-shanghai.aliyuncs.com/linkstar/php-fpm:latest-8.3 && \
-         skopeo copy docker://docker.io/mysql:8.4 docker://registry.cn-shanghai.aliyuncs.com/linkstar/mysql:8.4 
+         skopeo copy docker://docker.io/mysql:8.4 docker://registry.cn-shanghai.aliyuncs.com/linkstar/mysql:8.4 && \
+         skopeo copy docker://docker.io/php:8.3-alpine docker://registry.cn-shanghai.aliyuncs.com/linkstar/php:8.3-alpine
          
          
          
