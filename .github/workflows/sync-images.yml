@@ -27,7 +27,8 @@ jobs:
 
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
-         skopeo copy docker://docker.io/laradock/workspace:latest-8.3 docker://registry.cn-shanghai.aliyuncs.com/linkstar/workspace:latest-8.3
+         skopeo copy docker://docker.io/laradock/workspace:latest-8.3 docker://registry.cn-shanghai.aliyuncs.com/linkstar/workspace:latest-8.3 && \
+         skopeo copy docker://docker.io/laradock/php-fpm:latest-8.3 docker://registry.cn-shanghai.aliyuncs.com/linkstar/php-fpm:latest-8.3
          
          
          
