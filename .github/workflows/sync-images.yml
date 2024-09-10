@@ -34,6 +34,7 @@ jobs:
          skopeo copy docker://docker.io/databack/mysql-backup docker://registry.cn-shanghai.aliyuncs.com/linkstar/mysql-backup:latest
          skopeo copy docker://docker.io/getmeili/meilisearch:latest docker://registry.cn-shanghai.aliyuncs.com/linkstar/meilisearch:latest
          skopeo copy docker://docker.io/python:3.7.17-alpine docker://registry.cn-shanghai.aliyuncs.com/linkstar/python:3.7.17-alpine
+         skopeo copy docker://docker.io/python:3.7 docker://registry.cn-shanghai.aliyuncs.com/linkstar/python:3.7
          
          
          
