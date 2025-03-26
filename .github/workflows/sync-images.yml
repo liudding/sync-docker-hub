@@ -36,6 +36,7 @@ jobs:
          skopeo copy docker://docker.io/getmeili/meilisearch:latest docker://registry.cn-shanghai.aliyuncs.com/linkstar/meilisearch:latest && \
          skopeo copy docker://docker.io/python:3.7.17-alpine docker://registry.cn-shanghai.aliyuncs.com/linkstar/python:3.7.17-alpine && \
          skopeo copy docker://docker.io/python:3.7 docker://registry.cn-shanghai.aliyuncs.com/linkstar/python:3.7 && \
+         skopeo copy docker://docker.io/python:3.12 docker://registry.cn-shanghai.aliyuncs.com/linkstar/python:3.12 && \
          skopeo copy docker://docker.io/lukasblecher/pix2tex:api docker://registry.cn-shanghai.aliyuncs.com/linkstar/pix2tex:api && \
          skopeo copy docker://docker.io/electronuserland/builder:wine docker://registry.cn-shanghai.aliyuncs.com/linkstar/electron-builder:wine
          
