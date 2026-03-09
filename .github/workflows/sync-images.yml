@@ -45,6 +45,7 @@ jobs:
          skopeo copy docker://docker.io/electronuserland/builder:wine docker://registry.cn-shanghai.aliyuncs.com/linkstar/electron-builder:wine
          skopeo copy docker://docker.io/cimg/android:2025.04.1-ndk docker://registry.cn-shanghai.aliyuncs.com/linkstar/android:2025.04.1-ndk
          skopeo copy docker://docker.io/cimg/android:2025.09.1-ndk docker://registry.cn-shanghai.aliyuncs.com/linkstar/android:2025.09.1-ndk
+         skopeo copy docker://ghcr.io/cirruslabs/flutter:3.41.4 docker://registry.cn-shanghai.aliyuncs.com/linkstar/flutter:3.41.4
          
          
          
