@@ -38,6 +38,8 @@ jobs:
          skopeo copy docker://docker.io/nginx:alpine docker://registry.cn-shanghai.aliyuncs.com/linkstar/nginx:alpine && \
          skopeo copy docker://docker.io/redis:latest docker://registry.cn-shanghai.aliyuncs.com/linkstar/redis:latest && \
          skopeo copy docker://docker.io/php:8.3-alpine docker://registry.cn-shanghai.aliyuncs.com/linkstar/php:8.3-alpine && \
+         skopeo copy docker://docker.io/node:22-slim docker://registry.cn-shanghai.aliyuncs.com/linkstar/node:22-slim && \
+         skopeo copy docker://docker.io/node:24-slim docker://registry.cn-shanghai.aliyuncs.com/linkstar/node:24-slim && \
          skopeo copy docker://docker.io/node:25-alpine docker://registry.cn-shanghai.aliyuncs.com/linkstar/node:25-alpine && \
          skopeo copy docker://docker.io/node:25-slim docker://registry.cn-shanghai.aliyuncs.com/linkstar/node:25-slim && \
          skopeo copy docker://docker.io/databack/mysql-backup docker://registry.cn-shanghai.aliyuncs.com/linkstar/mysql-backup:latest && \
